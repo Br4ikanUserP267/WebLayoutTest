@@ -1,0 +1,79 @@
+:root{
+    --fontColor1:#fbfcf9;
+}
+
+
+.item1{
+    grid-area:Aviable ;
+    color: var(--fontColor1);
+    text-align: center;
+    
+    
+    background-image: url("../Recurses/Item1-backgrund.jpg");
+    background-size: 100%;
+    background-repeat:no-repeat ;
+    height: 400px;
+
+}
+
+.item2{
+    grid-area: cloud;
+    background-size:100% ;
+    background-image: url("../Recurses/item2-background.jpg");
+    padding-left: 10%;
+
+
+}
+.item3{
+    grid-area: sephiroth;
+    background-image: url("../Recurses/item3-background.jfif");
+    background-size:cover ;
+    background-repeat:no-repeat ;
+    padding-left: 30%;
+}
+.item4{
+    grid-area: Tifa;
+    height: 200px;
+    background-image: url("../Recurses/item4-background.jpg");
+    padding-left: 30%;
+    height: 250px;
+    background-size:100% ;
+}
+.item5{
+    grid-area: onlyplay;
+    background-image: url(../Recurses/Item5-background.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 400px;
+    
+}
+.item6{
+    grid-area: Barret;
+    background-image: url(../Recurses/Item6-background.jpg);
+    background-size:100%;
+    background-repeat:no-repeat ;
+}
+.item7{
+    grid-area: squareoniz;
+    background-image: url("../Recurses/item7-background.jpg");
+    background-size: 100%;
+    width: 500px;
+    background-repeat: no-repeat;
+    
+    
+}
+.item8{
+    grid-area: aerith;
+    background-image: url("../Recurses/Item8-background.jfif");
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+.container-grid{
+    display: grid;
+    grid-template-areas:'Aviable Aviable  cloud cloud'
+                        'Aviable Aviable sephiroth sephiroth'
+                        'Tifa    Tifa    onlyplay  Barret'
+                        'squareoniz aerith  aerith Barret  ' ;
+
+}
